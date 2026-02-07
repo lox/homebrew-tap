@@ -17,4 +17,4 @@ brew install lox/tap/<formula>
 
 ## Available Formulas
 
-- **slack** - CLI for Slack ([source](https://github.com/lox/slack-cli))
+- **slack-cli** - CLI for Slack ([source](https://github.com/lox/slack-cli))
