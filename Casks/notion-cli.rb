@@ -3,7 +3,7 @@ cask "notion-cli" do
   name "notion-cli"
   desc "CLI for Notion - search pages, read content, update pages"
   homepage "https://github.com/lox/notion-cli"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "notion-cli" do
   on_macos do
     on_intel do
       url "https://github.com/lox/notion-cli/releases/download/v#{version}/notion-cli_Darwin_x86_64.tar.gz"
-      sha256 "0420af2577c195c6fef2021660f7c4a66bfd4cd8c4593c97096322b0f702572f"
+      sha256 "326027b667ce338f5de3a84c0739472140cb2492bdb1ce7b72025b61c5306ae3"
     end
     on_arm do
       url "https://github.com/lox/notion-cli/releases/download/v#{version}/notion-cli_Darwin_arm64.tar.gz"
-      sha256 "2df447650d0e37bdcd56840f088a6574c45f84759d1dc206fc209b6cec3eb083"
+      sha256 "f754c0ca367ecb96c961a2b47c95935da3db010d826697a5be5fc9548b56aecd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/lox/notion-cli/releases/download/v#{version}/notion-cli_Linux_x86_64.tar.gz"
-      sha256 "1236b233e5ff55d1cf9908e1bd7fffbdd61902cc69dd3748ef386b84506e4f44"
+      sha256 "965afc30c8a712be129cbb812ff21a3a36923113e93b904b0901b8341f6bccd4"
     end
     on_arm do
       url "https://github.com/lox/notion-cli/releases/download/v#{version}/notion-cli_Linux_arm64.tar.gz"
-      sha256 "f0c7293b8bcbef0ed4851d03c6ef42c6149f3b7635f471d8f7aaad4d811f323b"
+      sha256 "ca71ee608032347b3e0a9161deeac7be984900c2da315f8bf82f5da4a2891f90"
     end
   end
 
