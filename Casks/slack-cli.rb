@@ -3,7 +3,7 @@ cask "slack-cli" do
   name "slack-cli"
   desc "CLI for Slack - search messages, read threads/channels, lookup users"
   homepage "https://github.com/lox/slack-cli"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "slack-cli" do
   on_macos do
     on_intel do
       url "https://github.com/lox/slack-cli/releases/download/v#{version}/slack-cli_Darwin_x86_64.tar.gz"
-      sha256 "0d6754612a50abd1d93865c30866e2ac10a57033e75582731674c7069b449210"
+      sha256 "2309477d765602e5c7ec5c1554d1b8b9a54877d2465103dd5829683ef2b7ae23"
     end
     on_arm do
       url "https://github.com/lox/slack-cli/releases/download/v#{version}/slack-cli_Darwin_arm64.tar.gz"
-      sha256 "9644f63de8a16c024b8c77cb325f92a45f969512493f9a15f35a9ea1cf5f2c15"
+      sha256 "a7a962ebb9de29409032cb14b61404b4f7fdd08f893c3adb7dc5c56491e6047b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/lox/slack-cli/releases/download/v#{version}/slack-cli_Linux_x86_64.tar.gz"
-      sha256 "52b89e9a257a7913563412bdc1050ad962d9a3a4f86ad0bad56c237870d80701"
+      sha256 "cc7bc36506cc7774caea4d07d8916f7fe0603121043f58df072a196b75cd278e"
     end
     on_arm do
       url "https://github.com/lox/slack-cli/releases/download/v#{version}/slack-cli_Linux_arm64.tar.gz"
-      sha256 "fc32f602b93497e90aa2b9d95704ec0c4dbcd80a4fc4f703281e891e42f6c98c"
+      sha256 "0e20dc0eef4f366a6687bb888d8fa64af74a83b81d50554041e91c9053bbfd07"
     end
   end
 
