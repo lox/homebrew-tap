@@ -1,20 +1,21 @@
 # Homebrew Tap
 
-Homebrew formulas for [@lox](https://github.com/lox) tools.
+Homebrew casks for [@lox](https://github.com/lox) tools.
 
 ## Usage
 
 ```bash
 brew tap lox/tap
-brew install <formula>
+brew install --cask <cask>
 ```
 
 Or install directly:
 
 ```bash
-brew install lox/tap/<formula>
+brew install --cask lox/tap/<cask>
 ```
 
-## Available Formulas
+## Available Casks
 
+- **notion-cli** - CLI for Notion ([source](https://github.com/lox/notion-cli))
 - **slack-cli** - CLI for Slack ([source](https://github.com/lox/slack-cli))
